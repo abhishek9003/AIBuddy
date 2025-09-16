@@ -5,7 +5,7 @@ const https = require('https');
 
 const openaiKey = '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'; // Replace with your actual key
 const confluenceToken = 'RJ2RYCFTSS522FZKQEETU663UPOJZK2JMNXHH7QSYFLLMV2KOV5NDD4DPEEYB6CP4BW6TXQDUPI6GCPQXMSM5VWDB52WCPRY7ORHKNWJOZHOJQRFD4FPZZGPRWDUGE25';
-
+console.log('HI');
 const agent = new https.Agent({
   rejectUnauthorized: false // ⚠️ disables SSL verification
 });
